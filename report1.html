@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      header {
+        background-color: black;
+        color: white;
+        padding: 15px 0;
+        text-align: center;
+      }
+      .banner img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+      }
+      table {
+        width: 45%;
+        margin: 20px;
+        border-collapse: collapse;
+        display: inline-block;
+        vertical-align: top;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      section {
+        margin: 20px;
+        width: 100%;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        bottom: 0;
+      }
+      h2 {
+        margin-top: 20px;
+      }
+      .p {
+        font-size: 1.1em;
+        line-height: 3;
+        margin: 15px 0;
+      }
+      footer p {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Internet Programming Course</h1>
+    </header>
+
+    <div class="banner">
+      <img src="./html.png" alt="HTML Banner" />
+    </div>
+
+    <section>
+      <h2>HTML Tags</h2>
+      <p>
+        Below are two tables of commonly used HTML tags and their definitions:
+      </p>
+
+      <!-- First Table -->
+      <table>
+        <tr>
+          <th>Tag Name</th>
+          <th>Tag Definition</th>
+        </tr>
+        <tr>
+          <td>&lt;html&gt;</td>
+          <td>Defines the beginning of an HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>Contains metadata about the HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>Sets the title of the HTML document (appears in the browser tab).</td>
+        </tr>
+        <tr>
+          <td>&lt;body&gt;</td>
+          <td>Contains the main content of the HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt; to &lt;h6&gt;</td>
+          <td>Defines HTML headings, &lt;h1&gt; being the largest.</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Defines a paragraph of text.</td>
+        </tr>
+        <tr>
+          <td>&lt;a&gt;</td>
+          <td>Defines a hyperlink to link to other webpages.</td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Embeds an image in the HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>Defines an unordered (bulleted) list.</td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt;</td>
+          <td>Defines an ordered (numbered) list.</td>
+        </tr>
+        <tr>
+          <td>&lt;li&gt;</td>
+          <td>Defines a list item inside an unordered or ordered list.</td>
+        </tr>
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>Defines a division or section in an HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>Defines a section of inline text.</td>
+        </tr>
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>Defines an HTML form for user input.</td>
+        </tr>
+        <tr>
+          <td>&lt;input&gt;</td>
+          <td>Defines an input field within a form.</td>
+        </tr>
+        <tr>
+          <td>&lt;button&gt;</td>
+          <td>Defines a clickable button.</td>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Defines a table.</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt;</td>
+          <td>Defines a table row.</td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt;</td>
+          <td>Defines a header cell in a table.</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;</td>
+          <td>Defines a standard cell in a table.</td>
+        </tr>
+        <tr>
+          <td>&lt;iframe&gt;</td>
+          <td>Defines an inline frame to embed another document.</td>
+        </tr>
+        <tr>
+          <td>&lt;link&gt;</td>
+          <td>Defines the relationship between the document and an external resource (often used for stylesheets).</td>
+        </tr>
+        <tr>
+          <td>&lt;meta&gt;</td>
+          <td>Defines metadata about an HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;style&gt;</td>
+          <td>Defines styles for a document (usually used for internal CSS).</td>
+        </tr>
+        
+        <tr>
+          <td>&lt;script&gt;</td>
+          <td>Defines JavaScript within an HTML document.</td>
+        </tr>
+        <tr>
+          <td>&lt;header&gt;</td>
+          <td>Defines a header for a section or page.</td>
+        </tr>
+        <tr>
+          <td>&lt;footer&gt;</td>
+          <td>Defines a footer for a section or page.</td>
+        </tr>
+        <tr>
+          <td>&lt;section&gt;</td>
+          <td>Defines a section of content in the document.</td>
+        </tr>
+      </table>
+      
+      <!-- Second Table -->
+      <table>
+        <tr>
+          <th>Tag Name</th>
+          <th>Tag Definition</th>
+        </tr>
+        <tr>
+          <td>&lt;article&gt;</td>
+          <td>Defines an independent, self-contained content.</td>
+        </tr>
+        <tr>
+          <td>&lt;nav&gt;</td>
+          <td>Defines navigation links for a document.</td>
+        </tr>
+        <tr>
+          <td>&lt;blockquote&gt;</td>
+          <td>Defines a section that is a block of quoted text.</td>
+        </tr>
+        <tr>
+          <td>&lt;code&gt;</td>
+          <td>Defines a block of code in the document.</td>
+        </tr>
+        <tr>
+          <td>&lt;em&gt;</td>
+          <td>Defines emphasized text.</td>
+        </tr>
+        <tr>
+          <td>&lt;strong&gt;</td>
+          <td>Defines strong text, typically displayed as bold.</td>
+        </tr>
+        <tr>
+          <td>&lt;mark&gt;</td>
+          <td>Defines highlighted text.</td>
+        </tr>
+        <tr>
+          <td>&lt;del&gt;</td>
+          <td>Defines deleted text (usually displayed with a strikethrough).</td>
+        </tr>
+        <tr>
+          <td>&lt;ins&gt;</td>
+          <td>Defines inserted text (usually displayed underlined).</td>
+        </tr>
+        <tr>
+          <td>&lt;hr&gt;</td>
+          <td>Defines a horizontal rule or thematic break in the document.</td>
+        </tr>
+        <tr>
+          <td>&lt;audio&gt;</td>
+          <td>Defines sound content like music or other audio streams.</td>
+        </tr>
+        <tr>
+          <td>&lt;video&gt;</td>
+          <td>Defines a video or movie content.</td>
+        </tr>
+        <tr>
+          <td>&lt;progress&gt;</td>
+          <td>Defines a progress bar.</td>
+        </tr>
+        <tr>
+          <td>&lt;meter&gt;</td>
+          <td>Defines a measurement within a known range (e.g., a gauge).</td>
+        </tr>
+        <tr>
+          <td>&lt;select&gt;</td>
+          <td>Defines a dropdown list.</td>
+        </tr>
+        <tr>
+          <td>&lt;option&gt;</td>
+          <td>Defines an option inside a dropdown list.</td>
+        </tr>
+        <tr>
+          <td>&lt;textarea&gt;</td>
+          <td>Defines a multiline input field.</td>
+        </tr>
+        <tr>
+          <td>&lt;small&gt;</td>
+          <td>Defines smaller text.</td>
+        </tr>
+        <tr>
+          <td>&lt;b&gt;</td>
+          <td>Defines bold text.</td>
+        </tr>
+        <tr>
+          <td>&lt;i&gt;</td>
+          <td>Defines italic text.</td>
+        </tr>
+        <tr>
+          <td>&lt;sub&gt;</td>
+          <td>Defines subscripted text.</td>
+        </tr>
+        <tr>
+          <td>&lt;sup&gt;</td>
+          <td>Defines superscripted text.</td>
+        </tr>
+        <tr>
+          <td>&lt;address&gt;</td>
+          <td>Defines contact information for a document or article.</td>
+        </tr>
+        <tr>
+          <td>&lt;figure&gt;</td>
+          <td>Defines content like images, diagrams, or illustrations.</td>
+        </tr>
+        <tr>
+          <td>&lt;figcaption&gt;</td>
+          <td>Defines a caption for a `<figure>` element.</td>
+        </tr>
+        <tr>
+          <td>&lt;details&gt;</td>
+          <td>Defines additional information that can be shown or hidden by the user.</td>
+        </tr>
+        <tr>
+          <td>&lt;summary&gt;</td>
+          <td>Defines a summary for the `<details>` element.</td>
+        </tr>
+      </table>
+      
+    </section>
+
+    <section style="max-width: 800px; margin: 0 auto">
+      <h2>HTML History</h2>
+      <p class="p">
+        HTML (Hypertext Markup Language) is the backbone of the World Wide Web.
+        HTML was first developed by Tim Berners-Lee in 1991 as a way to share
+        scientific documents over the internet. Since then, HTML has evolved
+        with multiple versions, introducing new tags and features to accommodate
+        the growing complexity of web development. The most significant versions
+        include HTML 4.01 (released in 1999) and HTML5 (released in 2014), which
+        introduced new elements for multimedia content, semantics, and improved
+        web standards.
+      </p>
+    </section>
+    <footer>
+      <p><strong>Name:</strong> Rifat Sultana</p>
+      <p><strong>ID:</strong> 02223100051091</p>
+      <p><strong>Section:</strong> C</p>
+      <p><strong>Batch:</strong> 43</p>
+    </footer>
+  </body>
+</html>
